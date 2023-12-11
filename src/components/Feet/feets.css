@@ -1,0 +1,161 @@
+
+
+.feetrow {
+    height: 100%;
+    width: 100%;
+    background: rgb(214, 214, 214);
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    justify-content: center;
+    grid-gap: 5px;
+    grid-row-gap: 20px;
+    padding: 30px;
+    padding-top: 100px;
+  }
+  .feetrow .column {
+    width: 400px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    justify-self: center;
+  }
+ .feetrow .column a {
+    width: inherit;
+    height: inherit;
+    display: flex;
+ }
+  .fancybox__backdrop {
+    background-color: #f6f6f6 !important;
+}
+  .fancybox__caption {
+    color: black !important;
+    text-transform: capitalize !important ;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+/* input[type="number"]::-webkit- */
+
+
+
+/* Basic styles for pagination buttons */
+.pagination-btn {
+  padding: 8px 12px;
+  margin: 0 4px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: #fff;
+  color: #3498db;
+  cursor: pointer;
+}
+
+.pagination-btn:hover {
+  background-color: #f5f5f5;
+}
+
+.pagination-btn.active {
+  background-color: #3498db;
+  color: #fff;
+}
+
+/* Styles for input and "Go" button */
+.pagination-input {
+  display: flex;
+  align-items: center;
+  margin-left: 16px;
+}
+
+.pagination-input-field {
+  width: 40px;
+  padding: 8px;
+  margin-right: 4px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.pagination-go {
+  padding: 8px 12px;
+  border: 1px solid #3498db;
+  border-radius: 4px;
+  background-color: #3498db;
+  color: #fff;
+  cursor: pointer;
+}
+
+.pagination-go:hover {
+  background-color: #287bbc;
+}
+
+
+ @media only screen and (max-width: 375px) {
+
+  .head {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    overflow: hidden;
+  }
+  .logo {
+    margin: 10px;
+    width: 50px;
+    margin-right: 20px;
+  }
+  .options {
+    margin: 0;
+    padding: 0;
+    width: 45%;
+  }
+  .search {
+    margin: 0;
+    padding: 0;
+    width: 55%;
+  }
+  .head label {
+    display: none;
+  }
+  .feetrow {
+    padding-top: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    /* justify-content: center; */
+    grid-gap: 5px;
+    /* grid-row-gap: 20px; */
+    padding: 10px;
+    padding-top: 20px;
+  }
+  .feetrow .column {
+    width: 150px;
+    height: auto;
+/*     background-color: blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all linear 0.5s;
+  }
+  .flex {
+    flex-direction: row;
+    flex-wrap: wrap;
+ }
+
+ .pagination-btn {
+    margin-bottom: 0.5rem;
+ }
+
+ .pagination-input {
+    width: 100%;
+    margin-top: 1rem;
+ }
+
+ .pagination-input-field {
+    width: 100%;
+    margin-bottom: 0.5rem;
+ }
+
+ .pagination-go {
+    width: 100%;
+ }
+ }
+
